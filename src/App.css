@@ -1,0 +1,60 @@
+*{  
+    margin: 0;
+    padding: 0;
+    transition: .4s all;  
+}   
+
+body{
+    background: antiquewhite;
+}
+    
+.Timer {
+   display: flex;
+   justify-content: center;
+   margin: 100px auto;
+}  
+
+h1{
+    font-size: 30px;
+    text-align: center;
+    margin-top: -100px;
+    margin-left: 100px;
+}
+
+
+
+button {
+    cursor: pointer;
+    outline: none;
+    border: none;
+    margin: 20px;
+    background: green;
+    color: red;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+button:hover {
+    background: blue;
+    color: yellow;
+    transform: rotateX(30deg);
+}
+
+ .Count{
+    
+     margin-top: 20px;
+ }
+
+.Min {
+    margin-right: 0px;
+    margin-top: 20px;
+}
+
+.Hour {
+    margin-right: 100px;
+    margin-top: 20px;
+}
+
+ .Title {
+     margin-left: 50px;
+ }
